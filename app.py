@@ -25,7 +25,7 @@ flag=0
 end=0
 import streamlit as st
 import os
-st.title('Mashup:musical_note::musical_note::musical_note:')
+st.title('Musicly:musical_note:')
 st.write('Made by Simran Kaur')
 name=st.text_input("Singer Name")
 n=int(st.number_input("No. of videos",step=1))
